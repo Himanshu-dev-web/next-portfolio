@@ -2,8 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import Eventoo from "@/public/eventoo.png";
+import Crypto from "@/public/crypto.png";
+import Moviee from "@/public/movieee.png";
+
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -35,52 +37,52 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated BCA",
+    location: "Meerut , Uttar Pardesh",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I successfully earned a Bachelor's degree in Computer Applications (BCA) with distinction, achieving an impressive aggregate of 7 CGPA.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Graduated MCA",
+    location: "Meerut , Uttar Pardesh",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "After obtaining my BCA degree, I pursued a Master's program and successfully graduated in 2023 with an impressive aggregate CGPA of 7.6",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Full-Stack Developer Bootcamp (ineuron.ai)",
+    location: "Remote ",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I enrolled in a bootcamp during my master's program, where I acquired proficiency in React, Next.js, TypeScript, Tailwind, and MongoDB. Currently, I am actively seeking full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Event Management Applications",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Designed and built a dynamic web app for easy event creation and management. User-friendly interface includes customizable settings and price tags.",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind"],
+    imageUrl: Eventoo,
   },
   {
-    title: "rmtDev",
+    title: "Cryptocurrency Tracker WebApp",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Implemented a system for users to explore comprehensive cryptocurrency data with a rich user experience.",
+    tags: ["React", "Javascript","Tailwind", "chart Js","CSS"],
+    imageUrl: Crypto,
   },
   {
-    title: "Word Analytics",
+    title: "Movie Recommendation App",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Developed a user-friendly interface for effortless browsing and fetching of movies and series based on genres, enhancing the content discovery process for an improved user experience.",
+    tags: ["React", "Imdb Api", "Tailwind"],
+    imageUrl: Moviee,
   },
 ] as const;
 
