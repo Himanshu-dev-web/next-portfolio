@@ -60,6 +60,14 @@ export const experiencesData = [
     icon: React.createElement(FaReact),
     date: "2023",
   },
+   {
+    title: "Full-Stack Developer at Designologix",
+    location: "Hybrid ",
+    description:
+      "I worked as a Full Stack Developer, handling both frontend and backend tasks. I am currently seeking opportunities in Full stack development or similar roles.",
+    icon: React.createElement(FaReact),
+    date: "2023",
+  },
 ] as const;
 
 export const projectsData = [
